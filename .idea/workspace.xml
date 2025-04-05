@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="76e5dd55-5b79-4411-b539-872201171264" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/DatabaseContract.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+    <list default="true" id="76e5dd55-5b79-4411-b539-872201171264" name="Changes" comment="Adding Database Class">
+      <change afterPath="$PROJECT_DIR$/configs.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/functions.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -35,6 +35,7 @@
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;php.override.implement.member.chooser.php.doc&quot;: &quot;NONE&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
@@ -49,11 +50,34 @@
       <updated>1743782531359</updated>
       <workItem from="1743782532503" duration="117000" />
       <workItem from="1743783660857" duration="491000" />
-      <workItem from="1743792642102" duration="593000" />
+      <workItem from="1743792642102" duration="3959000" />
+      <workItem from="1743872845246" duration="511000" />
     </task>
+    <task id="LOCAL-00001" summary="Adding Database Contract">
+      <option name="closed" value="true" />
+      <created>1743793300941</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1743793300941</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Adding Database Class">
+      <option name="closed" value="true" />
+      <created>1743796230802</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1743796230802</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Adding Database Contract" />
+    <MESSAGE value="Adding Database Class" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding Database Class" />
   </component>
 </project>
