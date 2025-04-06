@@ -1,2 +1,3 @@
 <?php
-echo "Notes Project";
+require "router.php";
+//echo "Notes Project";
