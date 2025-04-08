@@ -1,5 +1,5 @@
 <?php
 
-$heading = "My Notes";
-
-require "views/notes.view.php";
+view("notes.view.php",[
+    'heading' => "My Notes"
+]);

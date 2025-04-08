@@ -6,8 +6,7 @@
 const BASE_PATH = __DIR__ . '/../';
 
 // We can't call base_path() here because it's for functions.php and that helper function doesn't exist yet.
-require BASE_PATH . "functions.php";
+require BASE_PATH . "Core/functions.php";
 
 
-require "router.php";
-//echo "Notes Project";
+require base_path("router.php");

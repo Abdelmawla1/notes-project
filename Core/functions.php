@@ -1,5 +1,4 @@
 <?php
-use Core\Response;
 use JetBrains\PhpStorm\NoReturn;
 
 #[NoReturn] function dd($arr): void
@@ -44,7 +43,7 @@ function view($path,array $attributes = []): void
  * @param int $response_code
  * @return void
  */
-#[NoReturn] function abort(int $response_code = Response::NOT_FOUND_PAGE): void
+#[NoReturn] function abort(int $response_code = 404 ): void
 {
     http_response_code($response_code);
     require base_path("views/{$response_code}.php");

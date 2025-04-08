@@ -2,7 +2,7 @@
 
 use JetBrains\PhpStorm\NoReturn;
 
-$routes = require "routes.php";
+$routes = require base_path("routes.php");
 
 #[NoReturn] function routeToController($uri,$routes):void
 {
@@ -11,13 +11,6 @@ $routes = require "routes.php";
     }else{
         abort();
     }
-}
-
-#[NoReturn] function abort($code = 404):void
-{
-    http_response_code($code);
-    require "views/$code.php";
-    die();
 }
 
 $uri = parse_url($_SERVER['REQUEST_URI'])['path'];
