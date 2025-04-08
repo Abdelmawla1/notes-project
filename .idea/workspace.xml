@@ -4,12 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="76e5dd55-5b79-4411-b539-872201171264" name="Changes" comment="Adding router, routes and not found page">
-      <change afterPath="$PROJECT_DIR$/Response.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Validator.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/functions.php" beforeDir="false" afterPath="$PROJECT_DIR$/functions.php" afterDir="false" />
-    </list>
+    <list default="true" id="76e5dd55-5b79-4411-b539-872201171264" name="Changes" comment="Adding Validator.php and Response.php classes" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -56,7 +51,7 @@
       <workItem from="1743872845246" duration="3493000" />
       <workItem from="1743956997307" duration="2076000" />
       <workItem from="1743966802971" duration="232000" />
-      <workItem from="1744052216125" duration="818000" />
+      <workItem from="1744052216125" duration="1095000" />
     </task>
     <task id="LOCAL-00001" summary="Adding Database Contract">
       <option name="closed" value="true" />
@@ -98,7 +93,15 @@
       <option name="project" value="LOCAL" />
       <updated>1743958597231</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Adding Validator.php and Response.php classes">
+      <option name="closed" value="true" />
+      <created>1744053132292</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1744053132292</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -110,6 +113,7 @@
     <MESSAGE value="Adding configs and functions files" />
     <MESSAGE value="Adding controllers,views folders partials sub folder of views folder and some of their files" />
     <MESSAGE value="Adding router, routes and not found page" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding router, routes and not found page" />
+    <MESSAGE value="Adding Validator.php and Response.php classes" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding Validator.php and Response.php classes" />
   </component>
 </project>
