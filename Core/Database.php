@@ -1,4 +1,6 @@
 <?php
+namespace Core;
+use mysqli;
 
 class Database implements DatabaseContract
 {
