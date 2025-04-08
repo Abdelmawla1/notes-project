@@ -4,7 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="76e5dd55-5b79-4411-b539-872201171264" name="Changes" comment="Adding Validator.php and Response.php classes" />
+    <list default="true" id="76e5dd55-5b79-4411-b539-872201171264" name="Changes" comment="Adding Core, public directories and transfer index.php to public directory">
+      <change beforePath="$PROJECT_DIR$/Database.php" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Database.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DatabaseContract.php" beforeDir="false" afterPath="$PROJECT_DIR$/Core/DatabaseContract.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Response.php" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Response.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Validator.php" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Validator.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -37,6 +43,11 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\laracasts\notes-project\public" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -52,6 +63,7 @@
       <workItem from="1743956997307" duration="2076000" />
       <workItem from="1743966802971" duration="232000" />
       <workItem from="1744052216125" duration="1095000" />
+      <workItem from="1744134891697" duration="1468000" />
     </task>
     <task id="LOCAL-00001" summary="Adding Database Contract">
       <option name="closed" value="true" />
@@ -101,7 +113,15 @@
       <option name="project" value="LOCAL" />
       <updated>1744053132292</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Adding Core, public directories and transfer index.php to public directory">
+      <option name="closed" value="true" />
+      <created>1744135247867</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1744135247867</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -114,6 +134,7 @@
     <MESSAGE value="Adding controllers,views folders partials sub folder of views folder and some of their files" />
     <MESSAGE value="Adding router, routes and not found page" />
     <MESSAGE value="Adding Validator.php and Response.php classes" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding Validator.php and Response.php classes" />
+    <MESSAGE value="Adding Core, public directories and transfer index.php to public directory" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding Core, public directories and transfer index.php to public directory" />
   </component>
 </project>
