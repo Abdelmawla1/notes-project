@@ -85,7 +85,6 @@ class Database implements DatabaseContract
         return $this;
     }
 
-//    public function execute(): int|string
     public function execute()
     {
         mysqli_query($this->connection, $this->sql);
@@ -113,11 +112,13 @@ class Database implements DatabaseContract
 
     public function andWhere(string $column, string $operator, $value)
     {
-        // TODO: Implement andWhere() method.
+        $this->sql .= "AND `$column` $operator $value";
+        return $this;
     }
 
     public function orWhere(string $column, string $operator, $value)
     {
-        // TODO: Implement orWhere() method.
+        $this->sql .= "OR `$column` $operator $value";
+        return $this;
     }
 }

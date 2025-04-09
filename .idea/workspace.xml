@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="76e5dd55-5b79-4411-b539-872201171264" name="Changes" comment="Creating new Router.php class in Core directory">
+    <list default="true" id="76e5dd55-5b79-4411-b539-872201171264" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Database.php" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Database.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,7 +61,7 @@
       <workItem from="1743966802971" duration="232000" />
       <workItem from="1744052216125" duration="1095000" />
       <workItem from="1744134891697" duration="10845000" />
-      <workItem from="1744213742941" duration="10645000" />
+      <workItem from="1744213742941" duration="11228000" />
     </task>
     <task id="LOCAL-00001" summary="Adding Database Contract">
       <option name="closed" value="true" />
@@ -153,7 +151,15 @@
       <option name="project" value="LOCAL" />
       <updated>1744144889325</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Working on Database.php class, and it works, but I need to complete and enhance it.">
+      <option name="closed" value="true" />
+      <created>1744225665532</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1744225665532</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -171,6 +177,8 @@
     <MESSAGE value="Adding base_path, view, abort methods to &#10;functions.php and namespace Core to the classes&#10; and the interface in the Core directory" />
     <MESSAGE value="Replacing the old require with view() and base_path()" />
     <MESSAGE value="Creating new Router.php class in Core directory" />
-    <option name="LAST_COMMIT_MESSAGE" value="Creating new Router.php class in Core directory" />
+    <MESSAGE value="Working on Database.php class, and it works, but I need to enhance it." />
+    <MESSAGE value="Working on Database.php class, and it works, but I need to complete and enhance it." />
+    <option name="LAST_COMMIT_MESSAGE" value="Working on Database.php class, and it works, but I need to complete and enhance it." />
   </component>
 </project>

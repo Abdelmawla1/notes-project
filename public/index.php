@@ -39,17 +39,16 @@ $db = new Database($configs['database']);
 
 //$notes = $db->table('notes')->select()->execute()->getAllRows();
 
+//dd($notes);
+
 //$note = $db->table('notes')
 //    ->select('note, user_id')
 //    ->where("note_id",'=',1)->execute()->getRow();
 
-//$note = $db->table('notes')->select(['note',' user_id','note_id'])->where("note_id",'=',3)->execute()->getRow();
+//dd($note);
+
 
 //$db->table('notes')->delete()->where("note_id",'=',3)->execute();
-
-//dd($notes);
-
-//dd($note);
 
 //dd("You deleted the row");
 
