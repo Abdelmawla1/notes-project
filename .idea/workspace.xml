@@ -4,16 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="76e5dd55-5b79-4411-b539-872201171264" name="Changes" comment="Adding base_path, view, abort methods to &#10;functions.php and namespace Core to the classes&#10; and the interface in the Core directory">
+    <list default="true" id="76e5dd55-5b79-4411-b539-872201171264" name="Changes" comment="Creating new Router.php class in Core directory">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/functions.php" beforeDir="false" afterPath="$PROJECT_DIR$/Core/functions.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/controllers/home.php" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/home.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/controllers/notes.php" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/notes.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core/Database.php" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Database.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/router.php" beforeDir="false" afterPath="$PROJECT_DIR$/router.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/404.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/404.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/home.view.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/home.view.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/notes.view.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/notes.view.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,7 +62,8 @@
       <workItem from="1743956997307" duration="2076000" />
       <workItem from="1743966802971" duration="232000" />
       <workItem from="1744052216125" duration="1095000" />
-      <workItem from="1744134891697" duration="8494000" />
+      <workItem from="1744134891697" duration="10845000" />
+      <workItem from="1744213742941" duration="10645000" />
     </task>
     <task id="LOCAL-00001" summary="Adding Database Contract">
       <option name="closed" value="true" />
@@ -142,7 +137,23 @@
       <option name="project" value="LOCAL" />
       <updated>1744140068242</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Replacing the old require with view() and base_path()">
+      <option name="closed" value="true" />
+      <created>1744143541614</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1744143541615</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Creating new Router.php class in Core directory">
+      <option name="closed" value="true" />
+      <created>1744144889325</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1744144889325</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -158,6 +169,8 @@
     <MESSAGE value="Adding Core, public directories and transfer index.php to public directory" />
     <MESSAGE value="Adding const BASE_PATH to index.php and transferring Database.php, Response.php, Validator.php classes , DatabaseContract.php interface and functions.php file to Core directory" />
     <MESSAGE value="Adding base_path, view, abort methods to &#10;functions.php and namespace Core to the classes&#10; and the interface in the Core directory" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding base_path, view, abort methods to &#10;functions.php and namespace Core to the classes&#10; and the interface in the Core directory" />
+    <MESSAGE value="Replacing the old require with view() and base_path()" />
+    <MESSAGE value="Creating new Router.php class in Core directory" />
+    <option name="LAST_COMMIT_MESSAGE" value="Creating new Router.php class in Core directory" />
   </component>
 </project>
