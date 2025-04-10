@@ -4,8 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="76e5dd55-5b79-4411-b539-872201171264" name="Changes" comment="">
+    <list default="true" id="76e5dd55-5b79-4411-b539-872201171264" name="Changes" comment="Working on Database.php class, and it works, but I need to complete and enhance it.">
+      <change afterPath="$PROJECT_DIR$/controllers/about.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/controllers/contact.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/about.view.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/contact.view.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/partials/nav.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/partials/nav.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,6 +68,8 @@
       <workItem from="1744052216125" duration="1095000" />
       <workItem from="1744134891697" duration="10845000" />
       <workItem from="1744213742941" duration="11228000" />
+      <workItem from="1744225803405" duration="712000" />
+      <workItem from="1744302363212" duration="1270000" />
     </task>
     <task id="LOCAL-00001" summary="Adding Database Contract">
       <option name="closed" value="true" />
@@ -159,7 +167,15 @@
       <option name="project" value="LOCAL" />
       <updated>1744225665532</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Working on Database.php class, and it works, but I need to complete and enhance it.">
+      <option name="closed" value="true" />
+      <created>1744226247955</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1744226247955</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
