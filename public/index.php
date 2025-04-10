@@ -6,6 +6,7 @@
 
 
 use Core\Database;
+use Core\Router;
 
 const BASE_PATH = __DIR__ . '/../';
 
@@ -53,4 +54,16 @@ $db = new Database($configs['database']);
 //dd("You deleted the row");
 
 
-require base_path("router.php");
+//require base_path("router.php");
+
+$router = new Router();
+
+$routes = require base_path("routes.php");
+
+$uri = parse_url($_SERVER['REQUEST_URI'])['path'];
+$method = $_POST['_method']?? $_SERVER['REQUEST_METHOD'];
+
+$router->route($uri,$method);
+
+
+
