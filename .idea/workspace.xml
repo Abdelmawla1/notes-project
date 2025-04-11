@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="76e5dd55-5b79-4411-b539-872201171264" name="Changes" comment="Replacing the old router with Router class">
-      <change afterPath="$PROJECT_DIR$/Core/Container.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="76e5dd55-5b79-4411-b539-872201171264" name="Changes" comment="Making Container.php class">
+      <change afterPath="$PROJECT_DIR$/Core/App.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,7 +64,7 @@
       <workItem from="1744213742941" duration="11228000" />
       <workItem from="1744225803405" duration="712000" />
       <workItem from="1744302363212" duration="2823000" />
-      <workItem from="1744394467055" duration="406000" />
+      <workItem from="1744394467055" duration="870000" />
     </task>
     <task id="LOCAL-00001" summary="Adding Database Contract">
       <option name="closed" value="true" />
@@ -187,7 +186,15 @@
       <option name="project" value="LOCAL" />
       <updated>1744305120719</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Making Container.php class">
+      <option name="closed" value="true" />
+      <created>1744394974127</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1744394974127</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -209,6 +216,7 @@
     <MESSAGE value="Working on Database.php class, and it works, but I need to complete and enhance it." />
     <MESSAGE value="Adding about, contact pages with their controllers and adjustment nav to be proper to them" />
     <MESSAGE value="Replacing the old router with Router class" />
-    <option name="LAST_COMMIT_MESSAGE" value="Replacing the old router with Router class" />
+    <MESSAGE value="Making Container.php class" />
+    <option name="LAST_COMMIT_MESSAGE" value="Making Container.php class" />
   </component>
 </project>
