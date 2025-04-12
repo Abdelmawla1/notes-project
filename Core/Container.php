@@ -14,14 +14,14 @@ class Container
     /**
      * @throws \Exception
      */
-    public function resolve($key): void
+    public function resolve($key)
     {
         if(! array_key_exists($key,$this->bindings)){
             throw new \Exception("No matching bindings found for {$key}");
         }
         $factoryFunction = $this->bindings[$key];
 
-        call_user_func($factoryFunction);
+        return call_user_func($factoryFunction);
     }
 
 }

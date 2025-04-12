@@ -104,6 +104,12 @@ class Database implements DatabaseContract
         return mysqli_fetch_all($queryResult, MYSQLI_ASSOC);
     }
 
+    /**
+     * @param string $column
+     * @param string $operator
+     * @param $value
+     * @return $this
+     */
     public function where(string $column, string $operator, $value)
     {
         $this->sql .= "WHERE `$column` $operator $value";
