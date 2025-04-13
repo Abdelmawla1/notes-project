@@ -10,7 +10,7 @@ use JetBrains\PhpStorm\NoReturn;
     die();
 }
 
-function isCorrectURL($url):bool
+function isSelectedURL($url):bool
 {
     return ($_SERVER['REQUEST_URI'] === $url);
 }

@@ -12,13 +12,13 @@
                         <!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" -->
 
                         <a href="/"
-                           class="<?= isCorrectURL('/')? "bg-gray-900 text-white":"text-gray-300"; ?> rounded-md  px-3 py-2 text-sm font-medium text-white" aria-current="page">Home</a>
+                           class="<?= isSelectedURL('/')? "bg-gray-900 text-white":"text-gray-300"; ?> rounded-md  px-3 py-2 text-sm font-medium text-white" aria-current="page">Home</a>
                         <a href="/about"
-                           class="<?= isCorrectURL('/about')? "bg-gray-900 text-white":"text-gray-300"; ?> rounded-md px-3 py-2 text-sm font-medium  hover:bg-gray-700 hover:text-white">About</a>
+                           class="<?= isSelectedURL('/about')? "bg-gray-900 text-white":"text-gray-300"; ?> rounded-md px-3 py-2 text-sm font-medium  hover:bg-gray-700 hover:text-white">About</a>
                         <a href="/notes"
-                           class="<?= isCorrectURL('/notes')? "bg-gray-900 text-white":"text-gray-300"; ?> rounded-md px-3 py-2 text-sm font-medium  hover:bg-gray-700 hover:text-white">Notes</a>
+                           class="<?= isSelectedURL('/notes')? "bg-gray-900 text-white":"text-gray-300"; ?> rounded-md px-3 py-2 text-sm font-medium  hover:bg-gray-700 hover:text-white">Notes</a>
                         <a href="/contact"
-                           class="<?= isCorrectURL('/contact')? "bg-gray-900 text-white":"text-gray-300"; ?> rounded-md px-3 py-2 text-sm font-medium  hover:bg-gray-700 hover:text-white">Contact</a>
+                           class="<?= isSelectedURL('/contact')? "bg-gray-900 text-white":"text-gray-300"; ?> rounded-md px-3 py-2 text-sm font-medium  hover:bg-gray-700 hover:text-white">Contact</a>
 
                     </div>
                 </div>
