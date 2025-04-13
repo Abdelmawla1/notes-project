@@ -4,14 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="76e5dd55-5b79-4411-b539-872201171264" name="Changes" comment="Adding index.php and index.view.php files which are related to notes">
-      <change afterPath="$PROJECT_DIR$/controllers/notes/show.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/403.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/notes/show.view.php" afterDir="false" />
+    <list default="true" id="76e5dd55-5b79-4411-b539-872201171264" name="Changes" comment="Adding show.php, show.view.php files which are related to notes and authorize method in functions.php">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/functions.php" beforeDir="false" afterPath="$PROJECT_DIR$/Core/functions.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/notes/index.view.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/notes/index.view.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/403.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/403.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,7 +71,7 @@
       <workItem from="1744302363212" duration="2823000" />
       <workItem from="1744394467055" duration="1250000" />
       <workItem from="1744483422843" duration="7103000" />
-      <workItem from="1744570849753" duration="2175000" />
+      <workItem from="1744570849753" duration="2804000" />
     </task>
     <task id="LOCAL-00001" summary="Adding Database Contract">
       <option name="closed" value="true" />
@@ -238,7 +233,15 @@
       <option name="project" value="LOCAL" />
       <updated>1744492792852</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="Adding show.php, show.view.php files which are related to notes and authorize method in functions.php">
+      <option name="closed" value="true" />
+      <created>1744573400107</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1744573400107</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -265,6 +268,7 @@
     <MESSAGE value="Deleting router.php file" />
     <MESSAGE value="Adding bootstrap.php file" />
     <MESSAGE value="Adding index.php and index.view.php files which are related to notes" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding index.php and index.view.php files which are related to notes" />
+    <MESSAGE value="Adding show.php, show.view.php files which are related to notes and authorize method in functions.php" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding show.php, show.view.php files which are related to notes and authorize method in functions.php" />
   </component>
 </project>
