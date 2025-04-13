@@ -10,6 +10,11 @@ use JetBrains\PhpStorm\NoReturn;
     die();
 }
 
+function isCorrectURL($url):bool
+{
+    return ($_SERVER['REQUEST_URI'] === $url);
+}
+
 /**
  * this method for declaring a path that is relative to the root of the project
  * the path will be provided when we call the function
