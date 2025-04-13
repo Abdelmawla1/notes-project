@@ -1,4 +1,5 @@
 <?php
+
 use JetBrains\PhpStorm\NoReturn;
 
 #[NoReturn] function dd($arr): void
@@ -30,10 +31,17 @@ function base_path($path): string
  * @param array $attributes
  * @return void
  */
-function view($path,array $attributes = []): void
+function view($path, array $attributes = []): void
 {
     extract($attributes);
     require base_path("views/{$path}");
+}
+
+function authorize($condition, $statusCode = 403): void
+{
+    if (!$condition) {
+        abort($statusCode);
+    }
 }
 
 /**
@@ -43,7 +51,7 @@ function view($path,array $attributes = []): void
  * @param int $response_code
  * @return void
  */
-#[NoReturn] function abort(int $response_code = 404 ): void
+#[NoReturn] function abort(int $response_code = 404): void
 {
     http_response_code($response_code);
     require base_path("views/{$response_code}.php");
