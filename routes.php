@@ -6,5 +6,10 @@ $router->get('/about',"controllers/about.php");
 //$router->get('/notes',"controllers/notes.php");
 $router->get('/contact',"controllers/contact.php");
 
+# routes related to notes
+
 $router->get('/notes',"controllers/notes/index.php");
 $router->get('/note',"controllers/notes/show.php");
+
+$router->get('/note/create','controllers/notes/create.php');
+$router->post('/notes','controllers/notes/store.php');
