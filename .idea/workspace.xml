@@ -4,14 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="76e5dd55-5b79-4411-b539-872201171264" name="Changes" comment="Changing isCorrectURL function name in functions.php to isSelectedURL">
-      <change afterPath="$PROJECT_DIR$/controllers/notes/create.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/controllers/notes/edit.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/controllers/notes/store.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/notes/create.view.php" afterDir="false" />
+    <list default="true" id="76e5dd55-5b79-4411-b539-872201171264" name="Changes" comment="Adding create.php, store.php and create.view.php files which are related to notes and added create note button at index.view.php">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controllers/notes/edit.php" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/notes/edit.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controllers/notes/show.php" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/notes/show.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/notes/index.view.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/notes/index.view.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/notes/edit.view.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/notes/edit.view.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/notes/show.view.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/notes/show.view.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,7 +76,7 @@
       <workItem from="1744394467055" duration="1250000" />
       <workItem from="1744483422843" duration="7103000" />
       <workItem from="1744570849753" duration="5555000" />
-      <workItem from="1744646123678" duration="4300000" />
+      <workItem from="1744646123678" duration="8304000" />
     </task>
     <task id="LOCAL-00001" summary="Adding Database Contract">
       <option name="closed" value="true" />
@@ -271,11 +270,38 @@
       <option name="project" value="LOCAL" />
       <updated>1744576754572</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="Adding create.php, store.php and create.view.php files which are related to notes and added create note button at index.view.php">
+      <option name="closed" value="true" />
+      <created>1744650812461</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1744650812461</updated>
+    </task>
+    <task id="LOCAL-00026" summary="Adding create.php, store.php and create.view.php files which are related to notes and added create note button at index.view.php">
+      <option name="closed" value="true" />
+      <created>1744651039755</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1744651039755</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Adding Database Contract" />
@@ -302,6 +328,7 @@
     <MESSAGE value="Adding not authorized page 403.php" />
     <MESSAGE value="Adding isCorrectURL function in functions.php and using it in nav.php in view/partials" />
     <MESSAGE value="Changing isCorrectURL function name in functions.php to isSelectedURL" />
-    <option name="LAST_COMMIT_MESSAGE" value="Changing isCorrectURL function name in functions.php to isSelectedURL" />
+    <MESSAGE value="Adding create.php, store.php and create.view.php files which are related to notes and added create note button at index.view.php" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding create.php, store.php and create.view.php files which are related to notes and added create note button at index.view.php" />
   </component>
 </project>
