@@ -11,10 +11,30 @@
 
             <p><?= htmlspecialchars($note['note']) ?></p>
 
-            <footer class="mt-6">
-                <a href="/note/edit?id=<?= $note['note_id']?>" class="rounded-md bg-gray-500 px-3 py-2 text-sm font-semibold text-white shadow-xs hover:bg-indigo-500 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">Edit</a>
 
-            </footer>
+            <div class="mt-6 flex flex-row justify-items-center items-center gap-4">
+                <div>
+                    <a href="/note/edit?id=<?= $note['note_id'] ?>"
+                       class="rounded-md bg-gray-500 px-4 py-2 text-sm font-semibold text-white shadow-xs hover:bg-indigo-500 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">Edit</a>
+
+                </div>
+
+                <div>
+                    <form method="post">
+                        <input type="hidden" name="_method" value="DELETE">
+                        <input type="hidden" name="note_id" value="<?= $note['note_id']; ?>">
+                        <!--                    <button class="text-sm text-red-500">Delete</button>-->
+                        <button  class="rounded-md bg-transparent px-2 py-2 text-sm font-semibold text-red-500 shadow-xs hover:bg-red-500 hover:text-white focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">Delete</button>
+                    </form>
+
+                </div>
+
+            </div>
+
+<!--            <footer class="mt-6">-->
+<!--                <a href="/note/edit?id=--><?php //= $note['note_id']?><!--" class="rounded-md bg-gray-500 px-3 py-2 text-sm font-semibold text-white shadow-xs hover:bg-indigo-500 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">Edit</a>-->
+<!---->
+<!--            </footer>-->
 
         </div>
     </main>

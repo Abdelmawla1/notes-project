@@ -4,7 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="76e5dd55-5b79-4411-b539-872201171264" name="Changes" comment="Adding update.php file which is related to notes" />
+    <list default="true" id="76e5dd55-5b79-4411-b539-872201171264" name="Changes" comment="Adding destroy.php file which is related to notes">
+      <change afterPath="$PROJECT_DIR$/controllers/notes/destroy.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controllers/notes/destory.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/notes/show.view.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/notes/show.view.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -71,7 +77,9 @@
       <workItem from="1744570849753" duration="5555000" />
       <workItem from="1744646123678" duration="8556000" />
       <workItem from="1744727068200" duration="85000" />
-      <workItem from="1744727487793" duration="2773000" />
+      <workItem from="1744727487793" duration="3055000" />
+      <workItem from="1744795191384" duration="3304000" />
+      <workItem from="1744828208314" duration="606000" />
     </task>
     <task id="LOCAL-00001" summary="Adding Database Contract">
       <option name="closed" value="true" />
@@ -297,7 +305,15 @@
       <option name="project" value="LOCAL" />
       <updated>1744729455633</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="Adding destroy.php file which is related to notes">
+      <option name="closed" value="true" />
+      <created>1744730528402</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1744730528406</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -315,7 +331,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Adding configs and functions files" />
     <MESSAGE value="Adding controllers,views folders partials sub folder of views folder and some of their files" />
     <MESSAGE value="Adding router, routes and not found page" />
     <MESSAGE value="Adding Validator.php and Response.php classes" />
@@ -340,6 +355,7 @@
     <MESSAGE value="Adding create.php, store.php and create.view.php files which are related to notes and added create note button at index.view.php" />
     <MESSAGE value="Adding edit.php, edit.view.php files which are related to notes and added Edit button at show.view.php" />
     <MESSAGE value="Adding update.php file which is related to notes" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding update.php file which is related to notes" />
+    <MESSAGE value="Adding destroy.php file which is related to notes" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding destroy.php file which is related to notes" />
   </component>
 </project>
