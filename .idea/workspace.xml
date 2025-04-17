@@ -4,12 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="76e5dd55-5b79-4411-b539-872201171264" name="Changes" comment="Adding destroy.php file which is related to notes">
-      <change afterPath="$PROJECT_DIR$/controllers/notes/destroy.php" afterDir="false" />
+    <list default="true" id="76e5dd55-5b79-4411-b539-872201171264" name="Changes" comment="Completing destroy.php file which is related to notes&#10;and adding delete button to show.view.php">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/controllers/notes/destory.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/notes/show.view.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/notes/show.view.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,7 +75,7 @@
       <workItem from="1744727068200" duration="85000" />
       <workItem from="1744727487793" duration="3055000" />
       <workItem from="1744795191384" duration="3304000" />
-      <workItem from="1744828208314" duration="606000" />
+      <workItem from="1744828208314" duration="1551000" />
     </task>
     <task id="LOCAL-00001" summary="Adding Database Contract">
       <option name="closed" value="true" />
@@ -313,7 +309,23 @@
       <option name="project" value="LOCAL" />
       <updated>1744730528406</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="Complete destroy.php file which is related to notes&#10;and adding delete button to show.view.php">
+      <option name="closed" value="true" />
+      <created>1744829061892</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1744829061892</updated>
+    </task>
+    <task id="LOCAL-00031" summary="Completing destroy.php file which is related to notes&#10;and adding delete button to show.view.php">
+      <option name="closed" value="true" />
+      <created>1744829254092</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1744829254092</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -331,8 +343,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Adding controllers,views folders partials sub folder of views folder and some of their files" />
-    <MESSAGE value="Adding router, routes and not found page" />
     <MESSAGE value="Adding Validator.php and Response.php classes" />
     <MESSAGE value="Adding Core, public directories and transfer index.php to public directory" />
     <MESSAGE value="Adding const BASE_PATH to index.php and transferring Database.php, Response.php, Validator.php classes , DatabaseContract.php interface and functions.php file to Core directory" />
@@ -356,6 +366,8 @@
     <MESSAGE value="Adding edit.php, edit.view.php files which are related to notes and added Edit button at show.view.php" />
     <MESSAGE value="Adding update.php file which is related to notes" />
     <MESSAGE value="Adding destroy.php file which is related to notes" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding destroy.php file which is related to notes" />
+    <MESSAGE value="Complete destroy.php file which is related to notes&#10;and adding delete button to show.view.php" />
+    <MESSAGE value="Completing destroy.php file which is related to notes&#10;and adding delete button to show.view.php" />
+    <option name="LAST_COMMIT_MESSAGE" value="Completing destroy.php file which is related to notes&#10;and adding delete button to show.view.php" />
   </component>
 </project>
