@@ -17,3 +17,7 @@ $router->post('/notes','controllers/notes/store.php');
 $router->get('/note/edit','controllers/notes/edit.php');
 $router->patch('/note','controllers/notes/update.php');
 $router->delete('/note','controllers/notes/destroy.php');
+
+# routes related to register
+
+$router->get('/register','controllers/registration/create.php');
