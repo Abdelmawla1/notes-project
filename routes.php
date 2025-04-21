@@ -21,3 +21,12 @@ $router->delete('/note','controllers/notes/destroy.php');
 # routes related to register
 
 $router->get('/register','controllers/registration/create.php');
+$router->post('/register','controllers/registration/store.php');
+
+# routes related to log in
+
+$router->get('/login','controllers/session/create.php');
+$router->post('/login','controllers/session/store.php');
+
+# routes related to log out
+$router->delete('/logout','controllers/session/destroy.php');
