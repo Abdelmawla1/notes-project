@@ -5,14 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="76e5dd55-5b79-4411-b539-872201171264" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/controllers/session/destroy.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/functions.php" beforeDir="false" afterPath="$PROJECT_DIR$/Core/functions.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/controllers/session/store.php" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/session/store.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/partials/nav.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/partials/nav.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/registration/create.view.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/registration/create.view.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/session/create.view.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/session/create.view.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core/Router.php" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Router.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -100,6 +93,7 @@
       <workItem from="1745082061448" duration="4154000" />
       <workItem from="1745165635186" duration="1844000" />
       <workItem from="1745259410161" duration="887000" />
+      <workItem from="1745425103697" duration="487000" />
     </task>
     <task id="LOCAL-00001" summary="Adding Database Contract">
       <option name="closed" value="true" />

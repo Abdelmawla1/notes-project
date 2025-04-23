@@ -2,50 +2,59 @@
 
 namespace Core;
 
+use Core\Middleware\Middleware;
 use JetBrains\PhpStorm\NoReturn;
 
 class Router
 {
     protected array $routes = [];
 
+    public function only($key)
+    {
+        $this->routes[array_key_last($this->routes)]['middleware'] = $key;
+        return $this;
+    }
+
     public function route($uri, $method)
     {
         foreach ($this->routes as $route) {
             if ($route['uri'] === $uri && $route['method'] === $method) {
+                Middleware::resolve($route['middleware']);
                 return require base_path($route['controller']);
             }
         }
         $this->abort();
     }
 
-    public function add($method, $uri, $controller): void
+    public function add($method, $uri, $controller)
     {
         $this->routes[] = compact('method','uri','controller');
+        return $this;
     }
 
-    public function get($uri, $controller): void
+    public function get($uri, $controller)
     {
-        $this->add(strtoupper(__FUNCTION__),$uri,$controller);
+       return $this->add(strtoupper(__FUNCTION__),$uri,$controller);
     }
 
-    public function post($uri, $controller): void
+    public function post($uri, $controller)
     {
-        $this->add(strtoupper(__FUNCTION__),$uri,$controller);
+        return $this->add(strtoupper(__FUNCTION__),$uri,$controller);
     }
 
-    public function delete($uri, $controller): void
+    public function delete($uri, $controller)
     {
-        $this->add(strtoupper(__FUNCTION__),$uri,$controller);
+        return $this->add(strtoupper(__FUNCTION__),$uri,$controller);
     }
 
-    public function patch($uri, $controller): void
+    public function patch($uri, $controller)
     {
-        $this->add(strtoupper(__FUNCTION__),$uri,$controller);
+        return $this->add(strtoupper(__FUNCTION__),$uri,$controller);
     }
 
-    public function put($uri, $controller): void
+    public function put($uri, $controller)
     {
-        $this->add(strtoupper(__FUNCTION__),$uri,$controller);
+        return $this->add(strtoupper(__FUNCTION__),$uri,$controller);
     }
     #[NoReturn] function abort(int $response_code = 404 ): void
     {
