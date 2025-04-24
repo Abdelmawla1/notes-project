@@ -3,12 +3,11 @@
 
 $router->get('/', "controllers/home.php");
 $router->get('/about',"controllers/about.php");
-//$router->get('/notes',"controllers/notes.php");
 $router->get('/contact',"controllers/contact.php");
 
 # routes related to notes
 
-$router->get('/notes',"controllers/notes/index.php");
+$router->get('/notes',"controllers/notes/index.php")->only('auth');
 $router->get('/note',"controllers/notes/show.php");
 
 $router->get('/note/create','controllers/notes/create.php');
@@ -20,13 +19,13 @@ $router->delete('/note','controllers/notes/destroy.php');
 
 # routes related to register
 
-$router->get('/register','controllers/registration/create.php');
+$router->get('/register','controllers/registration/create.php')->only('guest');
 $router->post('/register','controllers/registration/store.php');
 
 # routes related to log in
 
-$router->get('/login','controllers/session/create.php');
+$router->get('/login','controllers/session/create.php')->only('guest');
 $router->post('/login','controllers/session/store.php');
 
 # routes related to log out
-$router->delete('/logout','controllers/session/destroy.php');
+$router->delete('/logout','controllers/session/destroy.php')->only('auth');

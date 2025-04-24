@@ -1,9 +1,5 @@
 <?php
 
-use Core\App;
-use Core\Database;
-use Core\Router;
-
 // This const (BASE_PATH) will point to a path and absolute path to the root of the project
 // some programmers call that const SPACE_PATH
 // You can concatenate it to the require below and in the others files, but we will use different approach by using function.
@@ -21,7 +17,7 @@ spl_autoload_register(function ($class){
 
 require base_path('bootstrap.php');
 
-$router = new Router();
+$router = new Core\Router();
 
 $routes = require base_path("routes.php");
 
