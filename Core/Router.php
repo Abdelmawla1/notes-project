@@ -26,9 +26,15 @@ class Router
         $this->abort();
     }
 
-    public function add($method, $uri, $controller)
+    public function add($method, $uri, $controller, $middleware = null)
     {
-        $this->routes[] = compact('method','uri','controller');
+//        $this->routes[] = compact('method','uri','controller'); // i forgot here to 'middleware'
+//        Warning: Undefined array key "middleware" in Router.php on line 22
+//        line 22 is Middleware::resolve($route['middleware']);
+//        don't forget to add $middleware = null in add()
+//        public function add($method, $uri, $controller, $middleware = null)
+
+        $this->routes[] = compact('method','uri','controller','middleware');
         return $this;
     }
 
