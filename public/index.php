@@ -8,6 +8,8 @@ const BASE_PATH = __DIR__ . '/../';
 // We can't call base_path() here because it's for functions.php and that helper function doesn't exist yet.
 require BASE_PATH . "Core/functions.php";
 
+session_start();
+
 spl_autoload_register(function ($class){
 
     $class = str_replace("\\",DIRECTORY_SEPARATOR,$class);
