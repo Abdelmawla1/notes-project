@@ -112,7 +112,10 @@ class Database implements DatabaseContract
      */
     public function where(string $column, string $operator, $value)
     {
-        $this->sql .= "WHERE `$column` $operator $value";
+        if (is_string($value))
+            $value = "'$value'";
+        $this->sql .= " WHERE `$column` $operator $value";
+
         return $this;
     }
 

@@ -22,11 +22,12 @@ if (! empty($errors)) {
     ]);
 }
 $user = $db->table('users')->select()->where('email', '=', $_POST['email'])->execute()->getRow();
+
 if ($user) {
     header('location: /');
     exit();
 } else {
-    $db->table('users')->$db->table('users')->insert([
+    $db->table('users')->insert([
         'email' => $_POST['email'],
         'password' => password_hash($_POST['password'], PASSWORD_BCRYPT)
     ])->execute();
