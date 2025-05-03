@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="76e5dd55-5b79-4411-b539-872201171264" name="Changes" comment="" />
+    <list default="true" id="76e5dd55-5b79-4411-b539-872201171264" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core/Router.php" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Router.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -48,6 +52,7 @@
       <recent name="C:\xampp\htdocs\laracasts\notes-project\views\notes" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\laracasts\notes-project\Http" />
       <recent name="C:\xampp\htdocs\laracasts\notes-project\controllers\session" />
       <recent name="C:\xampp\htdocs\laracasts\notes-project\Core" />
       <recent name="C:\xampp\htdocs\laracasts\notes-project\public" />
@@ -101,6 +106,7 @@
       <workItem from="1746180932784" duration="3804000" />
       <workItem from="1746194623360" duration="2396000" />
       <workItem from="1746257401192" duration="181000" />
+      <workItem from="1746290687574" duration="2385000" />
     </task>
     <task id="LOCAL-00001" summary="Adding Database Contract">
       <option name="closed" value="true" />
