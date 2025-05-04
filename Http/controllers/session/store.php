@@ -1,6 +1,7 @@
 <?php
 
 use Core\Authenticator;
+use Core\Session;
 use Http\Forms\LoginForm;
 
 $email = $_POST['email'];
@@ -19,7 +20,8 @@ if ($form->validate($email, $password)) { // if login form failed, then we have 
     }
 }
 
-$_SESSION['_flash']['errors'] = $form->getErrors();
+Session::flash('errors', $form->getErrors());
+//$_SESSION['_flash']['errors'] = $form->getErrors();
 
 redirect('/login');
 
