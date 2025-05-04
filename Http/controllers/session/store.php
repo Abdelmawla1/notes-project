@@ -1,48 +1,26 @@
 <?php
 
-use Core\App;
-use Core\Database;
-use Core\Validator;
-
-$db = App::resolve(Database::class);
+use Core\Authenticator;
+use Http\Forms\LoginForm;
 
 $email = $_POST['email'];
 $password = $_POST['password'];
 
-$errors = [];
+$form = new LoginForm();
 
-// Log in the user if credentials match
+if ($form->validate($email, $password)) { // if login form failed, then we have to return to the login form and display the error
 
-if (!Validator::email($email)) {
-    $errors ['email'] = 'Please provide a valid email address.';
-}
+    $auth = new Authenticator();
 
-if (!Validator::String($password)) {
-    $errors ['password'] = 'Please provide a valid password.';
-}
+    if ($auth->attempt($email, $password)) {  // if we were successful, they're now signed in, and we can redirect them wherever they need
 
-if (!empty($errors)) {
-    view('session/create.view.php', [
-        'errors' => $errors
-    ]);
-}
+        redirect('/');
 
-$user = $db->table('users')->select()->where('email', '=', $email)->execute()->getRow();
-
-if ($user) {
-
-    if (password_verify($password, $user['password'])) {
-        login([
-            'email' => $email
-        ]);
-
-        header('location: /');
-        exit();
+    } else {
+        $form->setErrors('LoginError', 'No matching account was found.');
     }
 }
 
 view('session/create.view.php', [
-    'errors' => [
-        'loginError' => 'No matching account was found.',
-    ]
+    'errors' => $form->getErrors()
 ]);

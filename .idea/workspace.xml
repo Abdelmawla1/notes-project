@@ -6,8 +6,10 @@
   <component name="ChangeListManager">
     <list default="true" id="76e5dd55-5b79-4411-b539-872201171264" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Router.php" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Router.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core/Authenticator.php" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Authenticator.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core/functions.php" beforeDir="false" afterPath="$PROJECT_DIR$/Core/functions.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Http/Forms/LoginForm.php" beforeDir="false" afterPath="$PROJECT_DIR$/Http/Forms/LoginForm.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Http/controllers/session/store.php" beforeDir="false" afterPath="$PROJECT_DIR$/Http/controllers/session/store.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -106,7 +108,8 @@
       <workItem from="1746180932784" duration="3804000" />
       <workItem from="1746194623360" duration="2396000" />
       <workItem from="1746257401192" duration="181000" />
-      <workItem from="1746290687574" duration="2385000" />
+      <workItem from="1746290687574" duration="4942000" />
+      <workItem from="1746316480854" duration="2810000" />
     </task>
     <task id="LOCAL-00001" summary="Adding Database Contract">
       <option name="closed" value="true" />
