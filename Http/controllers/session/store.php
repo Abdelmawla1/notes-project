@@ -10,9 +10,7 @@ $form = new LoginForm();
 
 if ($form->validate($email, $password)) { // if login form failed, then we have to return to the login form and display the error
 
-    $auth = new Authenticator();
-
-    if ($auth->attempt($email, $password)) {  // if we were successful, they're now signed in, and we can redirect them wherever they need
+    if ((new Authenticator)->attempt($email, $password)) {  // if we were successful, they're now signed in, and we can redirect them wherever they need
 
         redirect('/');
 
@@ -21,6 +19,10 @@ if ($form->validate($email, $password)) { // if login form failed, then we have 
     }
 }
 
-view('session/create.view.php', [
-    'errors' => $form->getErrors()
-]);
+$_SESSION['_flash']['errors'] = $form->getErrors();
+
+redirect('/login');
+
+//view('session/create.view.php', [
+//    'errors' => $form->getErrors()
+//]);
