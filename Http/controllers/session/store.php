@@ -21,10 +21,10 @@ if ($form->validate($email, $password)) { // if login form failed, then we have 
 }
 
 Session::flash('errors', $form->getErrors());
-//$_SESSION['_flash']['errors'] = $form->getErrors();
+Session::flash('old',[
+    'email' => $_POST['email']
+]);
 
 redirect('/login');
 
-//view('session/create.view.php', [
-//    'errors' => $form->getErrors()
-//]);
+
