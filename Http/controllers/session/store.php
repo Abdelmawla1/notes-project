@@ -7,24 +7,53 @@ use Http\Forms\LoginForm;
 $email = $_POST['email'];
 $password = $_POST['password'];
 
-$form = new LoginForm();
+try {
 
-if ($form->validate($email, $password)) { // if login form failed, then we have to return to the login form and display the error
+    $form = LoginForm::validate($attributes = [
+        'email' => $_POST['email'],
+        'password' => $_POST['password']
+    ]);
 
-    if ((new Authenticator)->attempt($email, $password)) {  // if we were successful, they're now signed in, and we can redirect them wherever they need
+} catch (ValidationException $exception) {
 
-        redirect('/');
+    Session::flash('errors', $exception->getErrors());
+    Session::flash('old', $exception->getOld());
 
-    } else {
-        $form->setErrors('LoginError', 'No matching account was found.');
-    }
+    redirect('/login');
 }
 
-Session::flash('errors', $form->getErrors());
-Session::flash('old',[
-    'email' => $_POST['email']
-]);
+if ((new Authenticator)->attempt($attributes['email'], $attributes['password'])) {
+
+    redirect('/');
+}
+
+$form->setErrors('LoginError', 'No matching account was found.');
+
 
 redirect('/login');
+
+
+
+
+//
+//$form = new LoginForm();
+//
+//if ($form->validate($email, $password)) { // if login form failed, then we have to return to the login form and display the error
+//
+//    if ((new Authenticator)->attempt($email, $password)) {  // if we were successful, they're now signed in, and we can redirect them wherever they need
+//
+//        redirect('/');
+//
+//    } else {
+//        $form->setErrors('LoginError', 'No matching account was found.');
+//    }
+//}
+//
+//Session::flash('errors', $form->getErrors());
+//Session::flash('old',[
+//    'email' => $_POST['email']
+//]);
+//
+//redirect('/login');
 
 
