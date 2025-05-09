@@ -15,11 +15,14 @@ class LoginForm
             $this->errors ['email'] = 'Please provide a valid email address.';
         }
 
-        if (!Validator::String($this->attributes['password'])) {
+        if (!Validator::String($this->attributes['password'], 6)) {
             $this->errors ['password'] = 'Please provide a valid password.';
         }
     }
 
+    /**
+     * @throws ValidationException
+     */
     public static function validate($attributes)
     {
         $instance = new static($attributes);

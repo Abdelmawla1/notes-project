@@ -1,6 +1,7 @@
 <?php
 
 use Core\Session;
+use Core\ValidationException;
 
 // This const (BASE_PATH) will point to a path and absolute path to the root of the project
 // some programmers call that const SPACE_PATH
@@ -13,9 +14,9 @@ require BASE_PATH . "Core/functions.php";
 
 session_start();
 
-spl_autoload_register(function ($class){
+spl_autoload_register(function ($class) {
 
-    $class = str_replace("\\",DIRECTORY_SEPARATOR,$class);
+    $class = str_replace("\\", DIRECTORY_SEPARATOR, $class);
     require base_path("{$class}.php");
 
 });
@@ -27,9 +28,16 @@ $router = new Core\Router();
 $routes = require base_path("routes.php");
 
 $uri = parse_url($_SERVER['REQUEST_URI'])['path'];
-$method = $_POST['_method']?? $_SERVER['REQUEST_METHOD'];
+$method = $_POST['_method'] ?? $_SERVER['REQUEST_METHOD'];
 
-$router->route($uri,$method);
+try {
+    $router->route($uri, $method);
+}catch (ValidationException $exception){
+    Session::flash('errors', $exception->getErrors());
+    Session::flash('old', $exception->getOld());
+
+    redirect('/login');
+}
 
 Session::unFlash();
 
