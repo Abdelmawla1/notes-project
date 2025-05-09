@@ -62,6 +62,12 @@ class Router
     {
         return $this->add(strtoupper(__FUNCTION__),$uri,$controller);
     }
+
+    public function getPreviousUrl()
+    {
+        return $_SERVER['HTTP_REFERER'];
+    }
+
     #[NoReturn] function abort(int $response_code = 404 ): void
     {
         http_response_code($response_code);
