@@ -20,17 +20,18 @@ class LoginForm
         }
     }
 
-    /**
-     * @throws ValidationException
-     */
     public static function validate($attributes)
     {
         $instance = new static($attributes);
+        return $instance->hasErrors() ? $instance->throw() : $instance;
+    }
 
-        if ($instance->hasErrors()) {
-            ValidationException::throw($instance->getErrors(), $instance->attributes);
-        }
-        return $instance;
+    /**
+     * @throws ValidationException
+     */
+    public function throw(): void
+    {
+            ValidationException::throw($this->getErrors(), $this->attributes);
     }
 
     public function hasErrors(): int
@@ -43,8 +44,9 @@ class LoginForm
         return $this->errors;
     }
 
-    public function setErrors($field, $message): void
+    public function setErrors($field, $message)
     {
         $this->errors[$field] = $message;
+        return $this;
     }
 }
