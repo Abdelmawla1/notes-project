@@ -2,8 +2,8 @@
 
 namespace Http\Forms;
 
-use Core\ValidationException;
 use Core\Validator;
+use Core\ValidationException;
 
 class LoginForm
 {

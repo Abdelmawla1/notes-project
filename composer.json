@@ -1,0 +1,16 @@
+{
+    "name": "esc/notes-project",
+    "authors": [
+        {
+            "name": "Abdelmawla1",
+            "email": "mahmoud.sayed.abdelmawla@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Core\\": "Core/",
+            "Http\\": "Http/"
+        }
+    }
+}
