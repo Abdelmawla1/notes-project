@@ -6,7 +6,9 @@
             "email": "mahmoud.sayed.abdelmawla@gmail.com"
         }
     ],
-    "require": {},
+    "require": {
+        "illuminate/collections": "^12.13"
+    },
     "autoload": {
         "psr-4": {
             "Core\\": "Core/",
